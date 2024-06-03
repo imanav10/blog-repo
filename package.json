@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "mangodb": "^1.0.0",
+    "mongoose": "^8.4.1",
+    "react-google-button": "^0.8.0",
+    "react-router-dom": "^6.23.1"
+  }
+}

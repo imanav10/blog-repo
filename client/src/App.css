@@ -1,0 +1,89 @@
+body {
+  color:#222;
+}
+
+img{
+  max-width: 100%;
+}
+
+main {
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 100vh;
+  margin-bottom: 50px;
+}
+header div.logo {
+  display: flex;
+  gap: 10px;
+}
+
+div.posts {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+div.posts h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+div.posts p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+div.posts p.info {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  font-size: 2vh;;
+  gap: 5px;
+  font-weight: bold;
+  color:#888;
+}
+
+header nav div.user {
+  background-color: #fff;
+  color: #000;
+  cursor: default;
+}
+
+header nav div.post {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+header nav div.logout {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+
+div.posts p.info a.author {
+  color: #333;
+  font-weight: bold;
+}
+
+header img {
+  max-width: 25px;
+  max-height: fit-content;
+}
+header a{
+  text-decoration: none;
+  color: inherit;
+}
+
+header a.logo{
+  font-weight: bold;
+}
+
+header nav{
+  display: flex;
+  gap: 25px;
+}
+
+
